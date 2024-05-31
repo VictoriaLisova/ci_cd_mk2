@@ -1,3 +1,10 @@
 from django.shortcuts import render
+from .models import Book
 
-# Create your views here.
+
+def main(request):
+    pass
+
+
+def category_list(request):
+    pass
