@@ -19,5 +19,6 @@ from . import views
 
 app_name = 'books'
 urlpatterns = [
-    path('', views.main, name='main')
+    path('', views.main, name='main'),
+    path('', views.category_list, name='category_list'),
 ]
